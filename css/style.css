@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+.name-color{
+    color: purple;
+}
+.personal-info{
+    display: flex;
+    background-color: rosybrown;
+}
+.personal-info img{
+    width: 100%;
+}
+.half-width{
+    width: 50%;
+    padding: 30px;
+}
+.middle-part{
+    padding-top: 30px;
+}
+.middle-part h2{
+    color: blueviolet;
+}
+.working-exp{
+    display: flex;
+}
+.one-third-width{
+    width: 30%;
+    margin: 3%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 15px slategrey;
+}
+.one-third-width:hover{
+    background-color: lightblue;
+    transition: 2s all ease;
+}
+.text-center{
+    text-align: center;
+    color: slateblue;
+}
